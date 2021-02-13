@@ -13,6 +13,5 @@ message CancelledData {
   Ticket ticket = 2;
   message Ticket {
     string id = 1;
-    double price = 2;
   }
 }
