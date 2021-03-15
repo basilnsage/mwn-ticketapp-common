@@ -6,4 +6,5 @@ message CreateUpdateTicket {
   double price = 2;
   string id = 3;
   string owner = 4;
+  uint64 version = 5;
 }
